@@ -1,2 +1,12 @@
 Helps Course alura git
 
+- Init repo
+git Init
+
+- View status
+git status
+
+- View commits
+git logs
+git log --oneline
+git log -p
