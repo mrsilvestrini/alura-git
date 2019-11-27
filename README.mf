@@ -13,5 +13,16 @@ git log -p
 git log --graph
 
 - Branchs
-git branch -b teste
+git checkout -b teste
+
+- Recovey versions
+git checkout -- index.html (untracked file)
+git reset HEAD index.html (in stage commit)
+git revert <hash_commit>
+
+- Git Stash
+git stash
+git stash list
+git stash pop
+
 
