@@ -10,3 +10,8 @@ git status
 git logs
 git log --oneline
 git log -p
+git log --graph
+
+- Branchs
+git branch -b teste
+
