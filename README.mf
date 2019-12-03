@@ -37,4 +37,10 @@ git reabse -i HEAD~3
 -Git cherry-pick (undo single commit)
 git cherry-pick  1hbgn56s 
 
+- Git bisect ( Find commit)
+git bisect start
+git bisect bad HEAD
+git bisect good <hash_commit>
 
+- Git blame (find lines)
+git blame index.html
