@@ -24,5 +24,15 @@ git revert <hash_commit>
 git stash
 git stash list
 git stash pop
+git stash apply
+git stash drop
+
+- Git tag
+git tag -a v1.0.0 -m "Version 1.0.0 stable"
+git push origin master --tags
+
+- Git Rebase
+git reabse -i HEAD~3
+
 
 
