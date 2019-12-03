@@ -34,5 +34,7 @@ git push origin master --tags
 - Git Rebase
 git reabse -i HEAD~3
 
+-Git cherry-pick (undo single commit)
+git cherry-pick  1hbgn56s 
 
 
